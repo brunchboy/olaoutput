@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		387E91D71ACFC33F00ED4117 /* libprotobuf.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E91D61ACFC33F00ED4117 /* libprotobuf.9.dylib */; };
+		387E91D91ACFC37000ED4117 /* libola.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E91D81ACFC37000ED4117 /* libola.1.dylib */; };
+		387E91DB1ACFC38A00ED4117 /* libolacommon.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E91DA1ACFC38A00ED4117 /* libolacommon.0.dylib */; };
 		63DB6E7A174694D000F72BB3 /* olaoutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63DB6E79174694D000F72BB3 /* olaoutput.cpp */; };
-		63DB6E7C1746953400F72BB3 /* libola.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DB6E7B1746953400F72BB3 /* libola.1.dylib */; };
-		63DB6E7E1746954200F72BB3 /* libolacommon.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DB6E7D1746954200F72BB3 /* libolacommon.0.dylib */; };
-		63DB6E801746956700F72BB3 /* libprotobuf.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DB6E7F1746956700F72BB3 /* libprotobuf.8.dylib */; };
 		63DB6E83174695A500F72BB3 /* commonsyms.c in Sources */ = {isa = PBXBuildFile; fileRef = 63DB6E82174695A500F72BB3 /* commonsyms.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22CF10220EE984600054F513 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = maxmspsdk.xcconfig; path = ../maxmspsdk.xcconfig; sourceTree = SOURCE_ROOT; };
 		2FBBEAE508F335360078DB84 /* olaoutput.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olaoutput.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		387E91D61ACFC33F00ED4117 /* libprotobuf.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libprotobuf.9.dylib; path = ../../../../../../usr/local/Cellar/protobuf/2.6.1/lib/libprotobuf.9.dylib; sourceTree = "<group>"; };
+		387E91D81ACFC37000ED4117 /* libola.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libola.1.dylib; path = ../../../../../../usr/local/Cellar/ola/0.9.3/lib/libola.1.dylib; sourceTree = "<group>"; };
+		387E91DA1ACFC38A00ED4117 /* libolacommon.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libolacommon.0.dylib; path = ../../../../../../usr/local/Cellar/ola/0.9.3/lib/libolacommon.0.dylib; sourceTree = "<group>"; };
 		63DB6E79174694D000F72BB3 /* olaoutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = olaoutput.cpp; sourceTree = "<group>"; };
-		63DB6E7B1746953400F72BB3 /* libola.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libola.1.dylib; path = /opt/local/lib/libola.1.dylib; sourceTree = "<absolute>"; };
-		63DB6E7D1746954200F72BB3 /* libolacommon.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libolacommon.0.dylib; path = /opt/local/lib/libolacommon.0.dylib; sourceTree = "<absolute>"; };
-		63DB6E7F1746956700F72BB3 /* libprotobuf.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libprotobuf.8.dylib; path = /opt/local/lib/libprotobuf.8.dylib; sourceTree = "<absolute>"; };
 		63DB6E82174695A500F72BB3 /* commonsyms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = commonsyms.c; path = "../c74support/max-includes/common/commonsyms.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -29,9 +29,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63DB6E801746956700F72BB3 /* libprotobuf.8.dylib in Frameworks */,
-				63DB6E7E1746954200F72BB3 /* libolacommon.0.dylib in Frameworks */,
-				63DB6E7C1746953400F72BB3 /* libola.1.dylib in Frameworks */,
+				387E91DB1ACFC38A00ED4117 /* libolacommon.0.dylib in Frameworks */,
+				387E91D91ACFC37000ED4117 /* libola.1.dylib in Frameworks */,
+				387E91D71ACFC33F00ED4117 /* libprotobuf.9.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,9 +61,9 @@
 		63DB6E811746956E00F72BB3 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				63DB6E7F1746956700F72BB3 /* libprotobuf.8.dylib */,
-				63DB6E7D1746954200F72BB3 /* libolacommon.0.dylib */,
-				63DB6E7B1746953400F72BB3 /* libola.1.dylib */,
+				387E91DA1ACFC38A00ED4117 /* libolacommon.0.dylib */,
+				387E91D81ACFC37000ED4117 /* libola.1.dylib */,
+				387E91D61ACFC33F00ED4117 /* libprotobuf.9.dylib */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -106,7 +106,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0620;
 			};
 			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "olaoutput" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -182,9 +182,13 @@
 					"\"$(C74SUPPORT)/max-includes\"",
 					"\"$(C74SUPPORT)/msp-includes\"",
 					"\"$(C74SUPPORT)/jit-includes\"",
-					/opt/local/include,
+					/usr/local/include,
 				);
-				LIBRARY_SEARCH_PATHS = /opt/local/lib/;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					/usr/local/Cellar/protobuf/2.6.1/lib,
+					/usr/local/Cellar/ola/0.9.3/lib,
+				);
 				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
 			};
 			name = Development;
@@ -201,9 +205,13 @@
 					"\"$(C74SUPPORT)/max-includes\"",
 					"\"$(C74SUPPORT)/msp-includes\"",
 					"\"$(C74SUPPORT)/jit-includes\"",
-					/opt/local/include,
+					/usr/local/include,
 				);
-				LIBRARY_SEARCH_PATHS = /opt/local/lib/;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					/usr/local/Cellar/protobuf/2.6.1/lib,
+					/usr/local/Cellar/ola/0.9.3/lib,
+				);
 				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
 			};
 			name = Deployment;
